@@ -15,7 +15,14 @@ body {
   overflow: hidden;
   height: 100vh;
 }
+.paragraph{
+    font-weight: bolder;
+    color: #ff00c3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
 
+}
 .msg {
   width: 100%;
   font-family: "Bilbo Swash Caps", cursive;
@@ -26,7 +33,7 @@ body {
   position: absolute;
   top: 50%;
   opacity: 0;
-  animation: message 2s ease-in-out 6s forwards;
+  animation: message 2s ease-in-out 1s forwards;
 }
 
 @keyframes message {
